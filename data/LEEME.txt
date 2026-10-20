@@ -1,0 +1,2 @@
+Copia aqui el archivo oficial de ISAC, stuff_model_df.parquet, y nada mas (README, seccion 2).
+La carpeta va vacia a proposito: la entrega no incluye datos de ISAC.

@@ -1,0 +1,16 @@
+pandas>=2.0
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+pyarrow>=14
+joblib
+matplotlib
+reportlab
+streamlit>=1.32
+
+# Arriba van los minimos. TODO se probo solo con estas versiones (Python 3.12):
+#   pandas 3.0.5, numpy 2.5.3, scipy 1.18.1, scikit-learn 1.9.1, pyarrow 25.0.1,
+#   joblib 1.6.0, matplotlib 3.11.1, reportlab 4.2.2
+# streamlit no se probo (el dashboard se ejecuto con un sustituto): pide 1.32 o posterior.
+# Si una version distinta diera problemas, instala exactamente las probadas (piden Python 3.12 o posterior):
+#   python -m pip install pandas==3.0.5 numpy==2.5.3 scipy==1.18.1 scikit-learn==1.9.1 pyarrow==25.0.1 joblib==1.6.0 matplotlib==3.11.1 reportlab==4.2.2

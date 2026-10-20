@@ -1,0 +1,9 @@
+# Los datos de ISAC y todo lo que sale de ellos NO van al repositorio
+data/*
+!data/LEEME.txt
+out/
+models/
+web_datos.zip
+clima_publico/crudo/
+__pycache__/
+*.pyc

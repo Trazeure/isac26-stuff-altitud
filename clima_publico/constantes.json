@@ -1,0 +1,210 @@
+{
+  "ALTITUDE_M": {
+    "No Altitude": 158,
+    "Medium Altitude": 1462,
+    "Extreme Altitude": 1981
+  },
+  "ALTITUDE_RHO": {
+    "No Altitude": 0.9293,
+    "Medium Altitude": 0.8099,
+    "Extreme Altitude": 0.7724
+  },
+  "RHO_CDMX": 0.753,
+  "RHO_MAR": 0.9435,
+  "CLIMA_TIPICO": {
+    "cdmx": [
+      22.8,
+      50.2
+    ],
+    "mar": [
+      27.8,
+      73.1
+    ]
+  },
+  "CLIMA_FACTOR": 0.9395,
+  "PRESION_CORRECCION_2240": 0.0187,
+  "STADIUMS_ELEVACION_M": {
+    "harp_helu": 2236,
+    "hermanos_serdan": 2209,
+    "francisco_villa": 1883,
+    "romo_chavez": 1880,
+    "conspiradores": 1821,
+    "domingo_santana": 1801,
+    "francisco_madero": 1552,
+    "panamericano": 1665,
+    "eduardo_vasconcelos": 1573,
+    "monumental_chihuahua": 1408,
+    "revolucion": 1129,
+    "monclova": 612,
+    "monterrey": 518,
+    "la_junta": 127,
+    "unitrade": 140,
+    "chevron": 39,
+    "beto_avila_cancun": 4,
+    "beto_avila_veracruz": 11,
+    "nelson_barrera": 9,
+    "centenario_27": 19,
+    "kukulcan": 11,
+    "kanasin": 11
+  },
+  "categorias": {
+    "No Altitude": {
+      "estadios": [
+        "monclova",
+        "monterrey",
+        "la_junta",
+        "unitrade",
+        "chevron",
+        "beto_avila_cancun",
+        "beto_avila_veracruz",
+        "nelson_barrera",
+        "centenario_27",
+        "kukulcan",
+        "kanasin"
+      ],
+      "pct_juegos": 45.4,
+      "juegos_temporada_regular": 1238,
+      "pct_temporada_regular": 45.1,
+      "juegos_por_temporada": {
+        "2024": 443,
+        "2025": 450,
+        "2026": 450
+      },
+      "pct_por_temporada": {
+        "2024": 45.4,
+        "2025": 45.6,
+        "2026": 45.1
+      },
+      "elevacion_m_por_juego": 158.0,
+      "juegos": 1343,
+      "juegos_con_clima": 1341,
+      "rho_rel": 0.9293,
+      "temp_c": 28.3,
+      "hr_pct": 68.5,
+      "presion_hpa": 994.6
+    },
+    "Medium Altitude": {
+      "estadios": [
+        "francisco_madero",
+        "panamericano",
+        "eduardo_vasconcelos",
+        "monumental_chihuahua",
+        "revolucion"
+      ],
+      "pct_juegos": 25.1,
+      "juegos_temporada_regular": 690,
+      "pct_temporada_regular": 25.1,
+      "juegos_por_temporada": {
+        "2024": 243,
+        "2025": 251,
+        "2026": 247
+      },
+      "pct_por_temporada": {
+        "2024": 24.9,
+        "2025": 25.5,
+        "2026": 24.8
+      },
+      "elevacion_m_por_juego": 1462.0,
+      "juegos": 741,
+      "juegos_con_clima": 740,
+      "rho_rel": 0.8099,
+      "temp_c": 26.5,
+      "hr_pct": 47.3,
+      "presion_hpa": 859.0
+    },
+    "Extreme Altitude": {
+      "estadios": [
+        "harp_helu",
+        "hermanos_serdan",
+        "francisco_villa",
+        "romo_chavez",
+        "conspiradores",
+        "domingo_santana"
+      ],
+      "pct_juegos": 29.5,
+      "juegos_temporada_regular": 817,
+      "pct_temporada_regular": 29.8,
+      "juegos_por_temporada": {
+        "2024": 289,
+        "2025": 285,
+        "2026": 300
+      },
+      "pct_por_temporada": {
+        "2024": 29.6,
+        "2025": 28.9,
+        "2026": 30.1
+      },
+      "elevacion_m_por_juego": 1981.0,
+      "juegos": 874,
+      "juegos_con_clima": 874,
+      "rho_rel": 0.7724,
+      "temp_c": 23.7,
+      "hr_pct": 47.4,
+      "presion_hpa": 810.9
+    }
+  },
+  "cdmx": {
+    "estadio": "harp_helu",
+    "juegos": 158,
+    "juegos_con_clima": 158,
+    "rho_rel": 0.753,
+    "temp_c": 22.8,
+    "hr_pct": 50.2,
+    "presion_hpa": 788.5
+  },
+  "mar": {
+    "estadios": [
+      "la_junta",
+      "unitrade",
+      "chevron",
+      "beto_avila_cancun",
+      "beto_avila_veracruz",
+      "nelson_barrera",
+      "centenario_27",
+      "kukulcan",
+      "kanasin"
+    ],
+    "juegos": 1026,
+    "juegos_con_clima": 1024,
+    "rho_rel": 0.9435,
+    "temp_c": 27.8,
+    "hr_pct": 73.1,
+    "presion_hpa": 1008.6
+  },
+  "control": {
+    "temporadas": [
+      2024,
+      2025,
+      2026
+    ],
+    "juegos_calendario": 3143,
+    "juegos_finales": 2958,
+    "gamePk_repetidos": 27,
+    "sin_estadio": 0,
+    "venues_sin_estadio": {},
+    "con_estadio": 2958,
+    "hora_tbd": 118,
+    "hora_estimada_doble_cartelera": 115,
+    "sin_hora": 3,
+    "sin_clima": 3,
+    "temp_reportada_vs_reanalisis": {
+      "juegos": 2955,
+      "correlacion": 0.832,
+      "diferencia_media_c": 1.8
+    },
+    "consultas_en_esta_corrida": 67
+  },
+  "metodo": {
+    "juegos": "calendario publico LMB, MLB Stats API sportId 23, gameType R,F,D,L,W, estado final",
+    "hora": "hora programada (gameDate, UTC) + 90 min, interpolada entre horas del reanalisis",
+    "clima": "Open-Meteo Archive, models=era5: temperature_2m, relative_humidity_2m, surface_pressure",
+    "densidad": "aire humedo (Tetens), rho_rel = rho / 1.225 kg/m3",
+    "elevacion": "Open-Meteo Elevation (Copernicus GLO-90) en las coordenadas de cada estadio",
+    "ALTITUDE_M": "elevacion promedio por juego de los parques de cada categoria",
+    "ALTITUDE_RHO": "rho_rel promedio de los juegos de cada categoria",
+    "RHO_CDMX": "rho_rel promedio de los juegos en harp_helu",
+    "RHO_MAR": "rho_rel promedio de los juegos en parques de menos de 200 m",
+    "CLIMA_FACTOR": "promedio por juego de rho_rel / atmosfera estandar ICAO en la elevacion del estadio",
+    "PRESION_CORRECCION_2240": "k de minimos cuadrados (por el origen) en presion / presion estandar = 1 + k * elevacion / 2240 (features.densidad_aire)"
+  }
+}
