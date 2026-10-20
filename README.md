@@ -12,8 +12,8 @@ himself, and every pitch is evaluated in both Harp Helú and sea-level air. A fo
 vertical break falls from 17.3 to 12.9 inches, and the same pitch allows +1.51 runs per 100 pitches more at
 Harp Helú (95% CI +0.69 to +2.33). Relative to other pitches, curveballs, cutters, sliders and splitters gain
 value at altitude, while four-seamers and sinkers lose it. Out-of-sample on unseen pitchers, Pitching+
-improves log-loss by 27.3% over a count-only baseline. Interactive dashboard (password-protected; access in
-the submission email): https://isac26-stuff-altitud.vercel.app
+improves log-loss by 27.3% over a count-only baseline. Interactive dashboard:
+https://isac26-stuff-altitud.vercel.app
 
 The ISAC data is not included in this repository: copy the official file to `data/` (section 2).
 
@@ -31,7 +31,7 @@ corrida.
 **Dashboard en línea (entregable 4)**: https://isac26-stuff-altitud.vercel.app. Trae el simulador
 (Stuff+ de un pitcheo en el Harp Helú y al nivel del mar, lado a lado), los mapas de movimiento y de
 ubicación, el ranking, la ficha de cada pitcher y un visualizador 3D del Harp Helú. Sus cifras salen del
-`out/` de la corrida de entrega y van cifradas; el acceso viene en el correo de entrega.
+`out/` de la corrida de entrega (resúmenes, sin pitcheos sueltos).
 `dashboard/app.py` es la versión local en Streamlit (sección 3), que además acepta cualquier altitud de
 medición, la temperatura y la humedad; se revisó pestaña por pestaña con un sustituto de Streamlit.
 
