@@ -2,7 +2,7 @@
 CONFIGURACION UNICA DEL PROYECTO — Stuff+ calibrado por altitud (ISAC / Diablos).
 
 YA ESTA AJUSTADO AL DICCIONARIO OFICIAL (stuff_plus_data_dictionary.csv).
-El dia del hackathon normalmente solo se revisa:
+Si se usa con otra version del dataset, normalmente solo se revisa:
   1. ALTITUDE_M  -> las etiquetas EXACTAS de la columna altitude_category del
                     dataset real y los metros que representa cada una
                     (el pipeline se detiene y te lista las que falten)
